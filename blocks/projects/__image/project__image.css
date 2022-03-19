@@ -1,0 +1,8 @@
+@import url('../__image/_photo/project__image_photo.css');
+@import url('../__image/_wallpaper/project__image_wallpaper.css');
+.project__image{
+  width: 350px;
+  height: 350px;
+  margin: 0 50px;
+  z-index: 5;
+}

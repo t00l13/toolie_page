@@ -1,0 +1,15 @@
+@import url('../vendor/normalize.css');
+@import url('../blocks/page/page.css');
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/__links/header__links.css');
+@import url('../blocks/logo/logo.css');
+@import url('../blocks/link/link.css');
+@import url('../blocks/link/__icon/link__icon.css');
+@import url('../blocks/music/music.css');
+@import url('../blocks/music/__eye/music__eye.css');
+@import url('../blocks/music/__star/music__star.css');
+@import url('../blocks/music/__bubble/music__bubble.css');
+@import url('../blocks/music/__bubbles/music__bubbles.css');
+
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/footer/__author/footer__author.css');

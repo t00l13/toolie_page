@@ -1,0 +1,21 @@
+.about__shape{
+  margin-top: 50px;
+  background-image: url(../../../images/shape_59.svg);
+  width: 100px;
+  height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+@keyframes rotation {
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+.rotation{
+  animation: rotation 2.5s ease-in-out infinite;
+}
