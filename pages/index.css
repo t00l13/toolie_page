@@ -1,8 +1,13 @@
 @import url('../vendor/normalize.css');
 @import url('../blocks/page/page.css');
 @import url('../blocks/header/header.css');
-@import url('../blocks/header/__links/header__links.css');
+@import url('../blocks/header/__menu/header__menu.css');
+@import url('../blocks/header/__list/header__list.css');
+@import url('../blocks/header/__burger/header__burger.css');
+@import url('../blocks/header/__body/header__body.css');
+@import url('../blocks/container/container.css');
 @import url('../blocks/logo/logo.css');
+@import url('../blocks/logo/__place-header/logo__place-header.css');
 @import url('../blocks/link/link.css');
 @import url('../blocks/link/__icon/link__icon.css');
 @import url('../blocks/about/about.css');

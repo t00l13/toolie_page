@@ -1,5 +1,5 @@
 .projects__eye{
-  background-image: url(../../../images/shape_6.svg);
+  background-image: url(../../images/shape_6.svg);
   width: 100px;
   height: 150px;
   background-repeat: no-repeat;
@@ -9,6 +9,12 @@
 }
 
 .projects__eye:hover{
-  background-image: url(../../../images/shape_4.svg);
+  background-image: url(../../images/shape_4.svg);
   transform:scaleX(-1);
+}
+
+@media (max-width:768px) {
+  .projects__eye{
+    display: none;
+  }
 }

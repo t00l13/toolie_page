@@ -8,3 +8,10 @@
   text-align: center;
 
 }
+
+@media (max-width:768px) {
+  .about__paragraph{
+    font-size: 24px;
+    text-align: center;
+  }
+}

@@ -22,3 +22,10 @@
 .rotation{
   animation: rotation 8s ease-in-out infinite;
 }
+
+@media (max-width:768px) {
+  .music__star{
+    max-width: 200px;
+    max-height: 200px;
+  }
+}

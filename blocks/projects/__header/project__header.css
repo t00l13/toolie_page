@@ -1,4 +1,6 @@
 .project__header{
   color: #fff;
-  margin-bottom: 70px; 
+  z-index: 3;
+  font-size: 30px;
+  margin: 0;
 }

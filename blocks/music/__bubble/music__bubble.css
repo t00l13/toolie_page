@@ -1,13 +1,13 @@
 .music__bubble{
   background-image: url(../../../images/bubble.png);
-  width: 400px;
-  height: 400px;
+  max-width: 400px;
+  max-height: 400px;
   background-size: cover;
   background-repeat: no-repeat;
-  position: absolute;
+  position: relative;
   top:135px;
   left: -170px;
-  z-index: 2;
+  z-index: 1;
   }
 
   @keyframes rotation {
@@ -21,4 +21,10 @@
 
   .rotation{
     animation: rotation 8s ease-in-out infinite;
+  }
+  @media (max-width:768px) {
+    .music__bubble{
+      max-width: 200px;
+      max-height: 200px;
+    }
   }

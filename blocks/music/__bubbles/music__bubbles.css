@@ -9,3 +9,9 @@
   right: -80px;
 
   }
+
+  @media (max-width:768px) {
+    .music__bubbles{
+      display: none;
+    }
+  }

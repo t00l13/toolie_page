@@ -1,8 +1,17 @@
 @import url('../__image/_photo/project__image_photo.css');
 @import url('../__image/_wallpaper/project__image_wallpaper.css');
 .project__image{
-  width: 350px;
-  height: 350px;
+  max-width: 350px;
+  max-height: 350px;
   margin: 0 50px;
-  z-index: 5;
+  z-index: 3;
+  position: relative;
+}
+
+@media (max-width:768px) {
+  .project__image{
+    max-width: 200px;
+    max-height: 200px;
+    margin: 0 auto;
+   }
 }

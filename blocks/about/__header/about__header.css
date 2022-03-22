@@ -4,3 +4,9 @@
   font-weight: bold;
   margin: 0 auto;
 }
+
+@media (max-width:768px) {
+  .about__header{
+    
+  }
+}

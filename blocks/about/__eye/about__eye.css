@@ -12,3 +12,8 @@
   background-image: url(../../../images/shape_4.svg);
   transform:scaleX(1);
 }
+@media (max-width:768px) {
+  .about__eye{
+    display: none;
+  }
+}
