@@ -1,90 +1,121 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>toolie page</title>
+    <title>TOOLIE</title>
     <link rel="stylesheet" href="pages/projects.css">
-    <link rel="shortcut icon" href="images/star-icon.png" type="image/png">
+    <link rel="shortcut icon" href="./images/star-ico.png" type="image/png">
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="scripts/header__menu.js"></script>
+    <script src="./scripts/header__menu.js"></script>
   </head>
-  <body>
-    <div class="page">
-    <header class="header">
+  <body class="page">
+
+      <header class="header">
+          <div class="header__body">
+              <a href="index.html"><img  class="logo" src="./images/logo-white.png" alt=""></a>
+            <div class="header__burger">
+              <span></span>
+            </div>
+            <nav class="header__menu">
+            <ul class="header__list">
+              <li><a href="index.html" class="link">About</a></li>
+              <li><a href="projects.html" class="link">Projects</a></li>
+              <li><a href="music.html" class="link">Music</a></li>
+              <li class="header__wrapper"><a href="https://t.me/t00l13" class="link" target="_blank">TG.</a><img class="header__icon" src="./images/icons/tg.png" alt=""></li>
+            </ul>
+            </nav>
+          </div>
+
+      </header>
       <div class="container">
-        <div class="header__body">
-          <a href="index.html" class="logo logo__place-header"> <img src="images/logo-white.png" alt=""> </a>
-      <div class="header__burger">
-        <span></span>
+      <main class="main">
+        <section class="present">
+          <h1 class="present__title">Toolie's projects</h1>
+          <p class="present__text">My projects are in web development, fashion design and just some pictures. I don't care about your grades and opinion, I just get high from it! All love and hype.</p>
+        </section>
+        <section class="t-shirt">
+          <h2 class="t-shirt__title">T-SHIRTS</h2>
+          <div class="t-shirt__grid">
+            <div class="t-shirt__item">
+              <div class="t-shirt__wrapper">
+                <video class="t-shirt__video" src="./images/video/cosmos.mp4" type="video/mp4" playsinline autoplay muted loop ></video>
+                <img class="t-shirt__img" src="./images/projects/passion_t-shirt.png" alt="">
+                <p class="t-shirt__name">PASSION T-SHIRT</p>
+              </div>
+            </div>
+            <div class="t-shirt__item">
+              <div class="t-shirt__wrapper">
+                <video class="t-shirt__video" src="./images/video/cosmos.mp4" type="video/mp4" playsinline autoplay muted loop ></video>
+                <img class="t-shirt__img" src="./images/projects/mymoon_t-shirt.png" alt="">
+                <p class="t-shirt__name">MY MOON T-SHIRT</p>
+              </div>
+            </div>
+            <div class="t-shirt__item">
+              <div class="t-shirt__wrapper">
+                <video class="t-shirt__video" src="./images/video/cosmos.mp4" type="video/mp4" playsinline autoplay muted loop ></video>
+                <img class="t-shirt__img" src="./images/projects/i-need-love.png" alt="">
+                <p class="t-shirt__name">I NEED LOVE T-SHIRT</p>
+              </div>
+            </div>
+            <div class="t-shirt__item">
+              <div class="t-shirt__wrapper">
+                <video class="t-shirt__video" src="./images/video/cosmos.mp4" type="video/mp4" playsinline autoplay muted loop ></video>
+                <img class="t-shirt__img" src="./images/projects/evil-corp.png" alt="">
+                <p class="t-shirt__name">EVIL-CORP. T-SHIRT</p>
+              </div>
+            </div>
+            <div class="t-shirt__item">
+              <div class="t-shirt__wrapper">
+                <video class="t-shirt__video" src="./images/video/cosmos.mp4" type="video/mp4" playsinline autoplay muted loop ></video>
+                <img class="t-shirt__img" src="./images/projects/getto.png" alt="">
+                <p class="t-shirt__name">GETTO T-SHIRT</p>
+              </div>
+            </div>
+            <div class="t-shirt__item">
+              <div class="t-shirt__wrapper">
+                <video class="t-shirt__video" src="./images/video/cosmos.mp4" type="video/mp4" playsinline autoplay muted loop ></video>
+                <img class="t-shirt__img" src="./images/projects/kapli.png" alt="">
+                <p class="t-shirt__name">KAPLI T-SHIRT</p>
+              </div>
+            </div>
+            <div class="t-shirt__item">
+              <div class="t-shirt__wrapper">
+                <video class="t-shirt__video" src="./images/video/cosmos.mp4" type="video/mp4" playsinline autoplay muted loop ></video>
+                <img class="t-shirt__img" src="./images/projects/revelation__up.png" alt="">
+                <p class="t-shirt__name">REVELATION T-SHIRT</p>
+            </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="web-development">
+          <h2 class="web-development__title">Web-development</h2>
+          <div class="web-development__grid">
+            <div class="web-development__item">
+              <img class="web-development__img" src="./images/web-development/udachastom.png" alt="">
+              <a class="web-development__link" target="_blank" href="https://tollie-web.ru">DENT "UDACHA"</a>
+            </div>
+            <div class="web-development__item">
+              <img class="web-development__img" src="./images/web-development/timeout-store.png" alt="">
+              <a class="web-development__link" target="_blank" href="https://timeout-store.ru/">TIMEOUT-STORE</a>
+            </div>
+            <div class="web-development__item">
+              <img class="web-development__img" src="./images/web-development/russian-travel.png" alt="">
+              <a class="web-development__link" target="_blank" href="https://t00l13.github.io/russian-travel/index.html">RUSSIAN-TRAVEL(YANDEX)</a>
+            </div>
+            <div class="web-development__item">
+              <img class="web-development__img" src="./images/web-development/mesto.png" alt="">
+              <a class="web-development__link" target="_blank" href="https://t00l13.github.io/mesto/">MESTO(YANDEX)</a>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <img class="footer__copyright-img" src="./images/toolie_copy.png" alt="">
+        <!--<p class="footer__copyright">&copy 2022 Borodinov Anatoly</p> -->
+      </footer>
       </div>
-      <nav class="header__menu">
-        <ul class="header__list">
-          <li><a class="link" href="projects.html">Project</a></li>
-          <li><a class="link" href="index.html">About</a></li>
-          <li><a class="link" href="music.html">Music</a></li>
-          <li><a class="link" href="projects.html">Contact</a></li>
-          <!-- <li><a class="link" href="https://t.me/t00l13"><img class="link__icon" src="./images/icons/telegram.png" alt="Telegram"></a></li>
-          <li><a class="link" href="https://www.instagram.com/boysmakehappy"><img class="link__icon" src="./images/icons/instagram.png" alt="Instagram"></a></li>
-          <li><a class="link" href="https://www.tiktok.com/@nastiemm"><img class="link__icon" src="./images/icons/tiktok.png" alt="TikTok"></a></li> -->
-        </ul>
-      </nav>
-      </div>
-      </div>
-    </header>
-    <div class="title">
-      <h1 class="project__header">MY PROJECT</h1>
-    </div>
-    <section class="projects">
-      <div class="project_cards">
-        <div class="project">
-          <img src="images/projects/evil-corp__t-shirt.png" alt="" class="project__image">
-          <h3 class="project__title">EVIL-CORP T-SHIRT</h3>
-        </div>
-        <div class="project">
-          <img src="images/projects/i-need-love__t-shirt.png" alt="" class="project__image">
-          <h3 class="project__title">I NEED IS LOVE T-SHIRT</h3>
-        </div>
-        <div class="project">
-          <img src="images/projects/russia__t-shirt.png" alt="" class="project__image">
-          <h3 class="project__title">RUSSIA T-SHIRT</h3>
-        </div>
-        <div class="project">
-          <img src="images/projects/vzipke.png" alt="" class="project__image_photo">
-          <h3 class="project__title">VZIPKE PHOTO</h3>
-        </div>
-        <div class="project">
-          <img src="images/projects/2602.png" alt="" class="project__image_photo">
-          <h3 class="project__title">2602 LOVE PHOTO</h3>
-        </div>
-        <div class="project">
-          <img src="images/projects/lapulik.png" alt="" class="project__image_photo">
-          <h3 class="project__title">LAPULIK PHOTO</h3>
-        </div>
-        <div class="project">
-          <img src="images/projects/jeans_up.png" alt="" class="project__image_photo projects__image_skelet">
-          <h3 class="project__title">SKELET JEANS</h3>
-        </div>
-        <div class="project">
-          <img src="images/projects/jeans_back.png" alt="" class="project__image_photo projects__image_skelet">
-          <h3 class="project__title">SKELET JEANS</h3>
-        </div>
-        <div class="project">
-          <img src="images/projects/mit-burya.png" alt="" class="project__image_wallpaper">
-          <h3 class="project__title">MITINSKAYA BURYA WALLPAPER</h3>
-        </div>
-        <div class="project">
-          <img src="images/projects/toolie_wave.png" alt="" class="project__image_wallpaper">
-          <h3 class="project__title">TOOLIE WAVE WALLPAPER</h3>
-        </div>
-        <div class="projects__star rotation"></div>
-        <div class="projects__eye"></div>
-      </div>
-    </section>
-    <footer class="footer">
-      <p class="footer__author">&copy; 2022, Anatoly Borodinov</p>
-    </footer>
-    </div>
   </body>
 </html>

@@ -1,52 +1,51 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>toolie page</title>
+    <title>TOOLIE</title>
     <link rel="stylesheet" href="pages/music.css">
-    <link rel="shortcut icon" href="images/star-icon.png" type="image/png">
+    <link rel="shortcut icon" href="./images/star-ico.png" type="image/png">
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="scripts/header__menu.js"></script>
+    <script src="./scripts/header__menu.js"></script>
   </head>
-  <body>
-    <div class="page">
-    <header class="header">
-      <div class="container">
-        <div class="header__body">
-          <a href="index.html" class="logo logo__place-header"> <img src="images/logo-white.png" alt=""> </a>
-      <div class="header__burger">
-        <span></span>
-      </div>
-      <nav class="header__menu">
-        <ul class="header__list">
-          <li><a class="link" href="projects.html">Project</a></li>
-          <li><a class="link" href="index.html">About</a></li>
-          <li><a class="link" href="music.html">Music</a></li>
-          <li><a class="link" href="music.html">Contact</a></li>
-          <!-- <li><a class="link" href="https://t.me/t00l13"><img class="link__icon" src="./images/icons/telegram.png" alt="Telegram"></a></li>
-          <li><a class="link" href="https://www.instagram.com/boysmakehappy"><img class="link__icon" src="./images/icons/instagram.png" alt="Instagram"></a></li>
-          <li><a class="link" href="https://www.tiktok.com/@nastiemm"><img class="link__icon" src="./images/icons/tiktok.png" alt="TikTok"></a></li> -->
-        </ul>
-      </nav>
-      </div>
-      </div>
-    </header>
-    <section class="music">
-      <div class="container">
+  <body class="page">
 
-      <iframe frameborder="1" style="border:none;width:100%;height:650px;z-index:2;margin-bottom:50px;" width="100%" height="850" src="https://music.yandex.ru/iframe/#playlist/yamusic-bestsongs/5880813">Слушайте <a href='https://music.yandex.ru/users/yamusic-bestsongs/playlists/5880813'>Лучшее: OG Buda</a> — <a href='https://music.yandex.ru/users/yamusic-bestsongs'>Яндекс Музыка</a> на Яндекс.Музыке</iframe>
-      <div class="music__star rotation"></div>
-      <div class="music__eye"></div>
-      <div class="music__bubble rotation"></div>
-      <div class="music__shape rotation"></div>
+      <header class="header">
+          <div class="header__body">
+              <a href="index.html"><img  class="logo" src="./images/logo-white.png" alt=""></a>
+            <div class="header__burger">
+              <span></span>
+            </div>
+            <nav class="header__menu">
+            <ul class="header__list">
+              <li><a href="index.html" class="link">About</a></li>
+              <li><a href="projects.html" class="link">Projects</a></li>
+              <li><a href="music.html" class="link">Music</a></li>
+              <li class="header__wrapper"><a href="https://t.me/t00l13" class="link" target="_blank">TG.</a><img class="header__icon" src="./images/icons/tg.png" alt=""></li>
+            </ul>
+            </nav>
+          </div>
 
-    </div>
-    </section>
-    <footer class="footer">
-      <p class="footer__author">&copy; 2022, Anatoly Borodinov</p>
-    </footer>
-    </div>
+      </header>
+      <div class="container">
+      <main class="main">
+        <div class="melon">
+          <img class="melon__img" src="./images/melon.png" alt="">
+        </div>
+      <section class="music">
+        <iframe frameborder="0" style="border:none;width:100%;height:450px;" width="100%" height="450" src="https://music.yandex.ru/iframe/#playlist/iTollik/1004">Слушайте <a href='https://music.yandex.ru/users/iTollik/playlists/1004'>🌐Melon Music🍈</a> — <a href='https://music.yandex.ru/users/iTollik'>Анатолий Б.</a> на Яндекс.Музыке</iframe>
+      </section>
+      <div class="nastya">
+        <img class="nastya__img" src="./images/nastya.png" alt="">
+      </div>
+
+      </main>
+      <footer class="footer">
+        <img class="footer__copyright-img" src="./images/toolie_copy.png" alt="">
+        <!--<p class="footer__copyright">&copy 2022 Borodinov Anatoly</p> -->
+      </footer>
+      </div>
   </body>
 </html>

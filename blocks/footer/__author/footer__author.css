@@ -1,8 +1,0 @@
-.footer__author{
-  margin: 0 auto;
-  font-size: 30px;
-  text-align: center;
-  color: #808a86;
-  font-family: 'DEATH CROW';
-}
-@font-face { src: url("../fonts/DEATH CROW.ttf") format("ttf"); font-family: "DEATH CROW"; font-weight: 700; font-style: italic; }

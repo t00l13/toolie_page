@@ -1,48 +1,65 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>toolie page</title>
+    <title>TOOLIE</title>
     <link rel="stylesheet" href="pages/index.css">
-    <link rel="shortcut icon" href="images/star-icon.png" type="image/png">
+    <link rel="shortcut icon" href="./images/star-ico.png" type="image/png">
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="scripts/header__menu.js"></script>
+    <script src="./scripts/header__menu.js"></script>
   </head>
-  <body>
-    <div class="page">
-    <header class="header">
+  <body class="page">
+
+      <header class="header">
+          <div class="header__body">
+              <a href="index.html"><img  class="logo" src="./images/logo-white.png" alt=""></a>
+            <div class="header__burger">
+              <span></span>
+            </div>
+            <nav class="header__menu">
+            <ul class="header__list">
+              <li><a href="index.html" class="link">About</a></li>
+              <li><a href="projects.html" class="link">Projects</a></li>
+              <li><a href="music.html" class="link">Music</a></li>
+              <li class="header__wrapper"><a href="https://t.me/t00l13" class="link" target="_blank">TG.</a><img class="header__icon" src="./images/icons/tg.png" alt=""></li>
+            </ul>
+            </nav>
+          </div>
+
+      </header>
       <div class="container">
-        <div class="header__body">
-          <a href="index.html" class="logo logo__place-header"> <img src="images/logo-white.png" alt=""> </a>
-      <div class="header__burger">
-        <span></span>
+      <main class="main">
+        <section class="about">
+          <h1 class="about__title">About</h1>
+          <p class="about__paragraph">Hi everyone! My name is TOOLIE. I'm Frontend Developer, designer and just creative person.</p>
+          <p class="about__paragraph">I don't care what people think about me at all. All my actions, whether they are good or bad, deliberate or spontaneous, are my life. I take risks, forgive, love, hate, rejoice, grieve, sometimes I get ahead of myself, sometimes I'm afraid and don't dare. Life is given to me once. And I live the way I want!</p>
+          <img class="tada" src="./images/tada.svg" alt="">
+        </section>
+
+        <section class="new">
+          <h2 class="new-projects__title">New projects</h2>
+          <div class="new-projects">
+            <div class="new-projects__item">
+              <img class="new-projects__img" src="./images/projects/passion_t-shirt.png" alt="">
+              <p class="new-projects__name">PASSION T-SHIRT</p>
+            </div>
+            <div class="new-projects__item">
+              <img class="new-projects__img" src="./images/projects/mymoon_t-shirt.png" alt="">
+              <p class="new-projects__name">MY MOON T-SHIRT</p>
+            </div>
+            <div class="new-projects__item">
+              <img class="new-projects__img" src="./images/projects/kapli.png" alt="">
+              <p class="new-projects__name">KAPLI T-SHIRT</p>
+            </div>
+          </div>
+      </section>
+      </main>
+      <footer class="footer">
+        <img class="footer__copyright-img" src="./images/toolie_copy.png" alt="">
+        <!--<p class="footer__copyright">&copy 2022 Borodinov Anatoly</p> -->
+      </footer>
       </div>
-      <nav class="header__menu">
-        <ul class="header__list">
-          <li><a class="link" href="projects.html">Project</a></li>
-          <li><a class="link" href="#about">About</a></li>
-          <li><a class="link" href="music.html">Music</a></li>
-          <li><a class="link" href="index.html">Contact</a></li>
-          <!-- <li><a class="link" href="https://t.me/t00l13"><img class="link__icon" src="./images/icons/telegram.png" alt="Telegram"></a></li>
-          <li><a class="link" href="https://www.instagram.com/boysmakehappy"><img class="link__icon" src="./images/icons/instagram.png" alt="Instagram"></a></li>
-          <li><a class="link" href="https://www.tiktok.com/@nastiemm"><img class="link__icon" src="./images/icons/tiktok.png" alt="TikTok"></a></li> -->
-        </ul>
-      </nav>
-      </div>
-      </div>
-    </header>
-    <section class="about">
-      <div class="about__eye"></div>
-      <h1 class="about__header" id="about">About</h1>
-      <p class="about__paragraph">Hello everyone, my name is Toolie. I am a young designer, web programmer and generally a creative person, but most of all in my life I love my girlfriend Nastya.</p>
-      <p class="about__paragraph"> I will post my projects here and what is connected with my life. VSEM HYPE AND PEACE.</p>
-      <div class="about__shape rotation"></div>
-    </section>
-    <footer class="footer">
-      <p class="footer__author">&copy; 2022, Anatoly Borodinov</p>
-    </footer>
-    </div>
   </body>
 </html>
