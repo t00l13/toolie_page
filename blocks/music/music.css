@@ -1,28 +1,10 @@
 .music{
-  background-color: #000;
-  padding-top: 150px;
-  display: flex;
-  z-index: 1;
+  box-shadow: 5px 5px 40px #9b00ff;
+  width: 50%;
+  margin: 0 auto;
 }
-
-.music__shape{
-  background-image: url(../../images/shape_59.svg);
-  width: 100px;
-  height: 200px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative;
-  margin: 0 auto 50px auto ;
-}
-@keyframes rotation {
-  from{
-    transform: rotate(0deg);
+@media (max-width:768px) {
+  .music{
+    width: 90%;
   }
-  to{
-    transform: rotate(360deg);
-  }
-}
-
-.rotation{
-  animation: rotation 2.5s ease-in-out infinite;
 }

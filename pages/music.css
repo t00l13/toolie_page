@@ -1,20 +1,21 @@
 @import url('../vendor/normalize.css');
+@import url('../vendor/fonts/fonts.css');
+
 @import url('../blocks/page/page.css');
+
 @import url('../blocks/header/header.css');
-@import url('../blocks/header/__menu/header__menu.css');
-@import url('../blocks/header/__list/header__list.css');
-@import url('../blocks/header/__burger/header__burger.css');
-@import url('../blocks/header/__body/header__body.css');
+
 @import url('../blocks/container/container.css');
+
 @import url('../blocks/logo/logo.css');
-@import url('../blocks/logo/__place-header/logo__place-header.css');
+
 @import url('../blocks/link/link.css');
-@import url('../blocks/link/__icon/link__icon.css');
+
 @import url('../blocks/music/music.css');
-@import url('../blocks/music/__eye/music__eye.css');
-@import url('../blocks/music/__star/music__star.css');
-@import url('../blocks/music/__bubble/music__bubble.css');
-@import url('../blocks/music/__bubbles/music__bubbles.css');
+
+@import url('../blocks/melon/melon.css');
+@import url('../blocks/nastya/nastya.css');
+
+
 
 @import url('../blocks/footer/footer.css');
-@import url('../blocks/footer/__author/footer__author.css');

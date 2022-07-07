@@ -1,0 +1,31 @@
+.present{
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+}
+.present__title{
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 36px;
+  font-weight: bolder;
+}
+.present__text{
+  font-size: 24px;
+  font-weight: lighter;
+  text-align: justify;
+  text-shadow: 6px 1px 5px #9b00ff;
+}
+
+@media (min-width:1024px) {
+  .present__text{
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+@media (max-width:320px) {
+  .present__text{
+    font-size: 18px;
+    text-align: center;
+  }
+}

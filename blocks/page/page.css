@@ -1,8 +1,6 @@
-
-.page {
+.page{
+  width: 100%;
   background-color: #000;
-  height: 100%;
-  margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: #fff;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
 }

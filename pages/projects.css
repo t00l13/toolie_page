@@ -1,24 +1,19 @@
 @import url('../vendor/normalize.css');
+@import url('../vendor/fonts/fonts.css');
+
 @import url('../blocks/page/page.css');
+
 @import url('../blocks/header/header.css');
-@import url('../blocks/header/__menu/header__menu.css');
-@import url('../blocks/header/__list/header__list.css');
-@import url('../blocks/header/__burger/header__burger.css');
-@import url('../blocks/header/__body/header__body.css');
+
 @import url('../blocks/container/container.css');
+
 @import url('../blocks/logo/logo.css');
-@import url('../blocks/logo/__place-header/logo__place-header.css');
+
 @import url('../blocks/link/link.css');
-@import url('../blocks/link/__icon/link__icon.css');
 
-@import url('../blocks/projects/projects.css');
-@import url('../blocks/projects/_cards/project_cards.css');
-@import url('../blocks/projects/__image/project__image.css');
-@import url('../blocks/projects/__title/project__title.css');
-@import url('../blocks/projects/__header/project__header.css');
-/* @import url('../blocks/projects/__star/projects__star.css');
-@import url('../blocks/projects/__eye/projects__eye.css'); */
+@import url('../blocks/web-development/web-development.css');
+@import url('../blocks/t-shirt/t-shirt.css');
+@import url('../blocks/present/present.css');
 
-@import url('../blocks/title/title.css');
+
 @import url('../blocks/footer/footer.css');
-@import url('../blocks/footer/__author/footer__author.css');
